@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A91B00611457F2C0007BC725 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91B00601457F2C0007BC725 /* UIKit.framework */; };
+		A91B00631457F2C0007BC725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91B00621457F2C0007BC725 /* Foundation.framework */; };
+		A91B00651457F2C0007BC725 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91B00641457F2C0007BC725 /* CoreGraphics.framework */; };
+		A91B006B1457F2C0007BC725 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A91B00691457F2C0007BC725 /* InfoPlist.strings */; };
+		A91B006D1457F2C0007BC725 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A91B006C1457F2C0007BC725 /* main.m */; };
+		A91B00711457F2C0007BC725 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A91B00701457F2C0007BC725 /* AppDelegate.m */; };
+		A91B00741457F2C0007BC725 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A91B00731457F2C0007BC725 /* ViewController.m */; };
+		A91B00771457F2C0007BC725 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A91B00751457F2C0007BC725 /* ViewController.xib */; };
+		A91B00861457F2ED007BC725 /* Pinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = A91B007F1457F2ED007BC725 /* Pinyin.m */; };
+		A91B00871457F2ED007BC725 /* Pinyinizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A91B00811457F2ED007BC725 /* Pinyinizer.m */; };
+		A91B00881457F2ED007BC725 /* Pinyinizer_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = A91B00821457F2ED007BC725 /* Pinyinizer_DataModel.xcdatamodel */; };
+		A91B008A1457F2ED007BC725 /* DictionaryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = A91B00851457F2ED007BC725 /* DictionaryEntry.m */; };
+		A91B008C1457F67B007BC725 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91B008B1457F67B007BC725 /* CoreData.framework */; };
+		A94394C31458091B00ABC586 /* Pinyinize.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A94394C21458091B00ABC586 /* Pinyinize.sqlite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A91B005C1457F2C0007BC725 /* pynz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pynz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91B00601457F2C0007BC725 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A91B00621457F2C0007BC725 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A91B00641457F2C0007BC725 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A91B00681457F2C0007BC725 /* pynz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pynz-Info.plist"; sourceTree = "<group>"; };
+		A91B006A1457F2C0007BC725 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A91B006C1457F2C0007BC725 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A91B006E1457F2C0007BC725 /* pynz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pynz-Prefix.pch"; sourceTree = "<group>"; };
+		A91B006F1457F2C0007BC725 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A91B00701457F2C0007BC725 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A91B00721457F2C0007BC725 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A91B00731457F2C0007BC725 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A91B00761457F2C0007BC725 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A91B007E1457F2ED007BC725 /* Pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pinyin.h; sourceTree = "<group>"; };
+		A91B007F1457F2ED007BC725 /* Pinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pinyin.m; sourceTree = "<group>"; };
+		A91B00801457F2ED007BC725 /* Pinyinizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pinyinizer.h; sourceTree = "<group>"; };
+		A91B00811457F2ED007BC725 /* Pinyinizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pinyinizer.m; sourceTree = "<group>"; };
+		A91B00821457F2ED007BC725 /* Pinyinizer_DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pinyinizer_DataModel.xcdatamodel; sourceTree = "<group>"; };
+		A91B00841457F2ED007BC725 /* DictionaryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionaryEntry.h; sourceTree = "<group>"; };
+		A91B00851457F2ED007BC725 /* DictionaryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryEntry.m; sourceTree = "<group>"; };
+		A91B008B1457F67B007BC725 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A94394C21458091B00ABC586 /* Pinyinize.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pinyinize.sqlite; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A91B00591457F2C0007BC725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91B008C1457F67B007BC725 /* CoreData.framework in Frameworks */,
+				A91B00611457F2C0007BC725 /* UIKit.framework in Frameworks */,
+				A91B00631457F2C0007BC725 /* Foundation.framework in Frameworks */,
+				A91B00651457F2C0007BC725 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A91B00511457F2C0007BC725 = {
+			isa = PBXGroup;
+			children = (
+				A91B008B1457F67B007BC725 /* CoreData.framework */,
+				A91B00661457F2C0007BC725 /* pynz */,
+				A91B005F1457F2C0007BC725 /* Frameworks */,
+				A91B005D1457F2C0007BC725 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A91B005D1457F2C0007BC725 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A91B005C1457F2C0007BC725 /* pynz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A91B005F1457F2C0007BC725 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A91B00601457F2C0007BC725 /* UIKit.framework */,
+				A91B00621457F2C0007BC725 /* Foundation.framework */,
+				A91B00641457F2C0007BC725 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A91B00661457F2C0007BC725 /* pynz */ = {
+			isa = PBXGroup;
+			children = (
+				A91B007D1457F2CC007BC725 /* pinyin */,
+				A91B006F1457F2C0007BC725 /* AppDelegate.h */,
+				A91B00701457F2C0007BC725 /* AppDelegate.m */,
+				A91B00721457F2C0007BC725 /* ViewController.h */,
+				A91B00731457F2C0007BC725 /* ViewController.m */,
+				A91B00751457F2C0007BC725 /* ViewController.xib */,
+				A91B00671457F2C0007BC725 /* Supporting Files */,
+			);
+			path = pynz;
+			sourceTree = "<group>";
+		};
+		A91B00671457F2C0007BC725 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A91B00681457F2C0007BC725 /* pynz-Info.plist */,
+				A91B00691457F2C0007BC725 /* InfoPlist.strings */,
+				A91B006C1457F2C0007BC725 /* main.m */,
+				A91B006E1457F2C0007BC725 /* pynz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A91B007D1457F2CC007BC725 /* pinyin */ = {
+			isa = PBXGroup;
+			children = (
+				A94394C21458091B00ABC586 /* Pinyinize.sqlite */,
+				A91B007E1457F2ED007BC725 /* Pinyin.h */,
+				A91B007F1457F2ED007BC725 /* Pinyin.m */,
+				A91B00801457F2ED007BC725 /* Pinyinizer.h */,
+				A91B00811457F2ED007BC725 /* Pinyinizer.m */,
+				A91B00821457F2ED007BC725 /* Pinyinizer_DataModel.xcdatamodel */,
+				A91B00841457F2ED007BC725 /* DictionaryEntry.h */,
+				A91B00851457F2ED007BC725 /* DictionaryEntry.m */,
+			);
+			name = pinyin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A91B005B1457F2C0007BC725 /* pynz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91B007A1457F2C0007BC725 /* Build configuration list for PBXNativeTarget "pynz" */;
+			buildPhases = (
+				A91B00581457F2C0007BC725 /* Sources */,
+				A91B00591457F2C0007BC725 /* Frameworks */,
+				A91B005A1457F2C0007BC725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pynz;
+			productName = pynz;
+			productReference = A91B005C1457F2C0007BC725 /* pynz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A91B00531457F2C0007BC725 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A91B00561457F2C0007BC725 /* Build configuration list for PBXProject "pynz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A91B00511457F2C0007BC725;
+			productRefGroup = A91B005D1457F2C0007BC725 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A91B005B1457F2C0007BC725 /* pynz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A91B005A1457F2C0007BC725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91B006B1457F2C0007BC725 /* InfoPlist.strings in Resources */,
+				A91B00771457F2C0007BC725 /* ViewController.xib in Resources */,
+				A94394C31458091B00ABC586 /* Pinyinize.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A91B00581457F2C0007BC725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91B006D1457F2C0007BC725 /* main.m in Sources */,
+				A91B00711457F2C0007BC725 /* AppDelegate.m in Sources */,
+				A91B00741457F2C0007BC725 /* ViewController.m in Sources */,
+				A91B00861457F2ED007BC725 /* Pinyin.m in Sources */,
+				A91B00871457F2ED007BC725 /* Pinyinizer.m in Sources */,
+				A91B00881457F2ED007BC725 /* Pinyinizer_DataModel.xcdatamodel in Sources */,
+				A91B008A1457F2ED007BC725 /* DictionaryEntry.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A91B00691457F2C0007BC725 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A91B006A1457F2C0007BC725 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A91B00751457F2C0007BC725 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A91B00761457F2C0007BC725 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A91B00781457F2C0007BC725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A91B00791457F2C0007BC725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A91B007B1457F2C0007BC725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pynz/pynz-Prefix.pch";
+				INFOPLIST_FILE = "pynz/pynz-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A91B007C1457F2C0007BC725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pynz/pynz-Prefix.pch";
+				INFOPLIST_FILE = "pynz/pynz-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A91B00561457F2C0007BC725 /* Build configuration list for PBXProject "pynz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91B00781457F2C0007BC725 /* Debug */,
+				A91B00791457F2C0007BC725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91B007A1457F2C0007BC725 /* Build configuration list for PBXNativeTarget "pynz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91B007B1457F2C0007BC725 /* Debug */,
+				A91B007C1457F2C0007BC725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A91B00531457F2C0007BC725 /* Project object */;
+}
